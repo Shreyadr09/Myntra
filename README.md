@@ -10,17 +10,6 @@ Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, 
 
 > After that you are ready to go and explore our project.
 
----
-
-### Team Members
-
--  **[Adnan Khateeb](https://github.com/adnankhateeb)**
--  **[Deekshant Vaishnav](https://github.com/deekshant57)**
--  **[Neelam Singh](https://github.com/Neelam2026)**
--  **[Shashank Shalabh](https://github.com/salove16)**
--  **[Uday Kiran Katta ](https://github.com/uday2925)**
-
----
 
 ---
 
@@ -74,6 +63,3 @@ Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, 
 
 https://drive.google.com/file/d/1Am2vHnifvFzCKBEl6qazvqJ-wBV67sdf/view?usp=sharing
 
-### Netlify Link
-
-https://myntra-react-clone.netlify.app/
