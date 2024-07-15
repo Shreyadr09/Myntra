@@ -186,7 +186,29 @@ export const Navbar = () => {
                />
             </div>
 
-            <p style={{ marginLeft: "4%" }}>
+            <p style={{marginRight:"-45px", marginTop:"6px",marginLeft:"80px", textAlign:"center"}}>
+               <a href="https://mediafiles.botpress.cloud/b425e6b8-d7bc-055-8853-8555893407f7/webchat/bot.html" style={{ textDecoration: 'none', color: 'inherit' }} target="_blank" rel="noopener noreferrer">
+                  <img
+                     style={{ marginLeft:"0px"}}
+                     width={28}
+                     src="https://img.icons8.com/?size=100&id=ViybK67S4rsu&format=png&color=000000"
+                     alt="Chatbot Icon"
+                  />
+               </a>
+               <br></br>
+               <span>
+                  {currentUser ? (
+                     <Link onClick={logout} to={"/"} className="rightLink">
+                        Logout
+                     </Link>
+                  ) : (
+                        <a href="https://mediafiles.botpress.cloud/b425e6b8-d7bc-4055-8853-8555893407f7/webchat/bot.html" className="rightLink" target="_blank" rel="noopener noreferrer">Maya Tredify</a>
+                  )}
+               </span>
+            </p>
+
+
+            <p style={{ marginLeft: "4%", marginTop: "8px" }}>
                <img
                   style={{ marginLeft: "15%", fontSize: "12px" }}
                   src="https://img.icons8.com/material-outlined/24/000000/gender-neutral-user.png"
@@ -205,7 +227,7 @@ export const Navbar = () => {
                </span>
             </p>
 
-            <p style={{ marginLeft: "2%" }}>
+            <p style={{ marginLeft: "2%", marginTop: "8px" }}>
                <img
                   style={{ marginLeft: "25%" }}
                   src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
@@ -230,7 +252,7 @@ export const Navbar = () => {
                {" "}
                <p>
                   <img
-                     style={{ marginLeft: "3%" }}
+                     style={{ marginLeft: "3%", marginTop: "8px" }}
                      src="https://img.icons8.com/material-outlined/24/000000/shopping-bag--v1.png"
                      alt=""
                   />
